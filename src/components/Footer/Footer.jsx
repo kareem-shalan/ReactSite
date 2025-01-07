@@ -231,7 +231,7 @@ export default function Footer() {
               </h6>
               <div className="mt-4">
                 <a
-                  download="kareem-shalan.cv"
+                  download="kareem-shalan.cv.pdf"
                   href={cv}
                   className="bg-blue-600 hover:bg-blue-700 text-sm text-white font-medium py-3 px-6 tracking-wide rounded"
                 >
