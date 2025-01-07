@@ -1,11 +1,17 @@
+import cv from "../../assets/kareem mohamed ali.pdf";
+
+
+
 export default function Footer() {
   return (
-    <div >
+    <div>
       <footer className="bg-gray-900 px-4 sm:px-6   pt-16 pb-6 font-[sans-serif]">
-        <div className="max-w-screen-xl mx-auto grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8
+        <div
+          className="max-w-screen-xl mx-auto grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8
         min-[320px]:grid-cols-3  
         
-        ">
+        "
+        >
           <div className="space-y-4">
             <h6 className="text-sm text-white font-medium">RESOURCES</h6>
             <ul className="space-y-2.5">
@@ -124,7 +130,10 @@ export default function Footer() {
             <h6 className="text-sm text-white font-medium">SOCIAL MEDIA</h6>
             <ul className="flex space-x-4 ">
               <li>
-                <a href="https://www.facebook.com/kemo.mohamed.31586" target="_blank">
+                <a
+                  href="https://www.facebook.com/kemo.mohamed.31586"
+                  target="_blank"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="fill-blue-600 w-8 h-8"
@@ -138,7 +147,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/kareem-shalan/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/kareem-shalan/"
+                  target="_blank"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-8 h-8"
@@ -160,7 +172,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/kemo_shalan?igsh=czU4c2Q2cDQ0dmg1" target="_blank">
+                <a
+                  href="https://www.instagram.com/kemo_shalan?igsh=czU4c2Q2cDQ0dmg1"
+                  target="_blank"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-8 h-8"
@@ -209,7 +224,6 @@ export default function Footer() {
                   </svg>
                 </a>
               </li>
-            
             </ul>
             <div className="mt-8">
               <h6 className="text-[13px] text-gray-400 font-medium">
@@ -217,11 +231,11 @@ export default function Footer() {
               </h6>
               <div className="mt-4">
                 <a
-                download={"kareem-shalan.cv"}
-                  href="CVVVVVVVVVVVV"
+                  download="kareem-shalan.cv"
+                  href={cv}
                   className="bg-blue-600 hover:bg-blue-700 text-sm text-white font-medium py-3 px-6 tracking-wide rounded"
                 >
-               DOWNLOAD CV
+                  DOWNLOAD CV
                 </a>
               </div>
             </div>
