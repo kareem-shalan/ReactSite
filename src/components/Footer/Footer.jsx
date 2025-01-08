@@ -1,4 +1,4 @@
-import cv from "../../assets/kareem mohamed ali.pdf";
+import cv from "../../assets/kareem.pdf";
 
 
 
