@@ -13,7 +13,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Portfolio from "./components/Portfolio/portfolio";
 
-let x = createHashRouter([
+let x = createBrowserRouter([
   {
     path: "",
     element: <Layout />,
